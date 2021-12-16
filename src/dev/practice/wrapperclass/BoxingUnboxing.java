@@ -1,6 +1,6 @@
 package dev.practice.wrapperclass;
 
-import dev.practice.corejavadao.CoreJavaDao;
+import dev.practice.corejavadao.exampleofencapsulation.CoreJavaDao;
 
 public class BoxingUnboxing {
     public static void main(String[] args) {

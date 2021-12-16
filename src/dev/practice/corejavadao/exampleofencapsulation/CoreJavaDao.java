@@ -1,4 +1,4 @@
-package dev.practice.corejavadao;
+package dev.practice.corejavadao.exampleofencapsulation;
 
 public class CoreJavaDao {
 

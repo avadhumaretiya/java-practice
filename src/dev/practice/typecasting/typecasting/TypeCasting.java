@@ -1,6 +1,6 @@
 package dev.practice.typecasting.typecasting;
 
-import dev.practice.corejavadao.CoreJavaDao;
+import dev.practice.corejavadao.exampleofencapsulation.CoreJavaDao;
 
 public class TypeCasting {
     public static void main(String[] args) {

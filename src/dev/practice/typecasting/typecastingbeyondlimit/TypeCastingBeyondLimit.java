@@ -1,6 +1,6 @@
 package dev.practice.typecasting.typecastingbeyondlimit;
 
-import dev.practice.corejavadao.CoreJavaDao;
+import dev.practice.corejavadao.exampleofencapsulation.CoreJavaDao;
 
 public class TypeCastingBeyondLimit {
     public static void main(String[] args) {
