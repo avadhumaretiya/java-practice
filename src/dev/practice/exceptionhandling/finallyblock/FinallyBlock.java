@@ -6,6 +6,7 @@ import java.io.FileNotFoundException;
 public class FinallyBlock {
     public static void main(String[] args) {
 
+        //Also we can use finally block as a garbage collector
         //With catch block executed
         //With Exception
         try {

@@ -10,9 +10,16 @@ public class UsingThrows {
         FileInputStream fileInputStream=new FileInputStream(" ");
     }
 
-    //Using throwskeyword
-    public static void main(String[] args) throws FileNotFoundException {
-        UsingThrows usingThrows=new UsingThrows();
-        usingThrows.readFile();
+    //Using throws keyword
+    public void readFile1() throws FileNotFoundException {
+
+        //Also we can handle exception which is throws by any method, where that method calling written
+        try {
+            readFile();
+        }catch(Exception exception){
+            System.out.println("Please enter valid file path");
+        }
+        FileInputStream fileInputStream=new FileInputStream(" ");
     }
+
 }
