@@ -15,6 +15,14 @@ public class LambdaExpressionWithRunnnable {
         Thread thread=new Thread(r);
         thread.start();
 
+        //Also we can directly write lambda expression in Thread argument
+        Thread thread1=new Thread(()->{
+            for (int i=0;i<10;i++){
+                System.out.println(i);
+            }
+        });
+        thread1.start();
+
         for (int j=0;j<10;j++){
             System.out.println(j);
         }
