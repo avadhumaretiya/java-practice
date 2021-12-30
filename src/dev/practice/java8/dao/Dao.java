@@ -35,6 +35,11 @@ public class Dao {
         this.name = name;
     }
 
+    public Dao(String name, int salary) {
+        this.name = name;
+        this.salary = salary;
+    }
+
     public int getSalary() {
         return salary;
     }
